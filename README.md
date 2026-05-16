@@ -10,7 +10,7 @@ Le cahier des charges est le suivant :
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/barre_de_progression_en_plusieurs_etapes/
 
 ## Projet développé avec
 
