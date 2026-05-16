@@ -1,5 +1,7 @@
 ## BARRE DE PROGRESSION EN PLUSIEURS ETAPES
 
+![Design preview for the project](./img/preview.png)
+
 ## Le challenge
 
 Création d'une barre de progression en plusieurs étapes en HTML5 et CSS3.
