@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barre de progression en plusieurs étape</title>
+    <!-- Importation des styles -->
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Début du main-->
+    <main class="main__content">
+      <h1>Barre de progression en plusieurs étapes</h1>
+      <!-- Début de la div progress__bar__container -->
+      <div class="progress__bar__container">
+        <div class="progress__bar">
+          <div class="progress"></div>
+        </div>
+        <ol class="steps">
+          <li class="step active">
+            <p class="step__number">1</p>
+          </li>
+          <li class="step">
+            <p class="step__number">2</p>
+          </li>
+          <li class="step">
+            <p class="step__number">3</p>
+          </li>
+          <li class="step">
+            <p class="step__number">4</p>
+          </li>
+        </ol>
+      </div>
+      <!-- Fin de la div progress__bar__conatiner -->
+
+      <!-- Début de la div buttons -->
+      <div class="buttons">
+        <button class="prev__btn" disabled>Précédent</button>
+        <button class="next__btn">Suivant</button>
+      </div>
+      <!-- Fin de la div buttons -->
+    </main>
+    <!-- Fin du main -->
+
+    <!-- Importation du fichier JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
